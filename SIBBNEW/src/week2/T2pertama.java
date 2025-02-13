@@ -4,10 +4,6 @@
  */
 package week2;
 import java.util.Scanner;
-/**
- *
- * @author achmad ifan
- */
 public class T2pertama {
 public static void kop(){
     System.out.println("-----------------------------------------------");
@@ -25,7 +21,6 @@ public static void kasir(){
     int jumlah =0;
     System.out.print("Masukan nama pembeli : ");
     String nama = input1.nextLine();
-    
     do{            
         System.out.print("Masukan Harga Barang ke-"+(jumlah+1) +" ");
         harga = input.nextInt();

@@ -2,14 +2,9 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package week2;
-import java.util.Scanner;
-/**
- *
- * @author achmad ifan
- */
 
-        
+package week2;
+import java.util.Scanner;     
 public class T2kedua {
 public static void kop(){
     System.out.println("\t  CAFE CERIA");
@@ -57,7 +52,6 @@ public static void kasir(){
     System.out.println("Minuman yang anda pesan adalah "+menu);
     System.out.println("Pesanan akan segera kami antar");
     System.out.println("Terima kasih"+nama+"telah berkunjung diCafe Ceria");
-    
 }
     public static void main(String[] args) {
         kop();
