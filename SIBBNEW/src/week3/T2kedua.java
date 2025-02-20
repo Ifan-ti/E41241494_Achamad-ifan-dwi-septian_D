@@ -17,8 +17,8 @@ public class T2kedua {
         System.out.print("Masukan Jumlah deret array : ");
         int jumlah = input.nextInt();
         
+        if(jumlah>0){
         int [] deret = new int [jumlah];
-        
         for (int i = 0; i < jumlah; i++) {
             deret[i] = random.nextInt(100)+1;
         }
@@ -26,7 +26,9 @@ public class T2kedua {
         System.out.print("deret angka random :  ");
         for (int i = 0; i < jumlah; i++) {
             System.out.print(deret[i]+" ");
-            
+        }    
+        }else{
+            System.out.println("Anggka tidak boleh minus");
         }
     }
    
